@@ -14,9 +14,9 @@ public class TheaterReservations {
         System.out.print("Full name: ");
         String fullName = input.nextLine();
 
-//        String nameString = fullName.split(" ");
-//        String firstName = nameString[0];
-//        String lastName = nameString[1];
+        String[] nameString = fullName.split(" ");
+        String firstName = nameString[0];
+        String lastName = nameString[1];
 
         System.out.println("DAte of reservation: ");
         String date = input.next();
@@ -26,6 +26,10 @@ public class TheaterReservations {
 
         System.out.println("Ticket Count: ");
         int ticketCount = input.nextInt();
+
+        if(ticketCount == 1){
+            System.out.println(ticketCount + "ticket reserved for " + reserveDay + "under " + lastName + "," + firstName);
+        }
 
     }
 }
