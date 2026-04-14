@@ -16,5 +16,9 @@ public class TheaterReservations {
         String nameString = fullName.split(" ");
         String firstName = nameString[0];
         String lastName = nameString[1];
+
+        System.out.println("DAte of reservation: ");
+        System.out.println("Ticket Count: ");
+
     }
 }
