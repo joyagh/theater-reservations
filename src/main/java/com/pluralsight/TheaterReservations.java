@@ -18,6 +18,8 @@ public class TheaterReservations {
         String lastName = nameString[1];
 
         System.out.println("DAte of reservation: ");
+        String date = input.next();
+
         System.out.println("Ticket Count: ");
 
     }
